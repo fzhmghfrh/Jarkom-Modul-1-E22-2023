@@ -23,6 +23,16 @@ gambar
 
 ## Soal 2
 
+Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer
+
+- Display filter `http contains "server"`
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.2.1.png)
+
+Jawab: gunicorn
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.2.2.png)
+
 ## Soal 3
 
 **A. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?** 
@@ -38,6 +48,15 @@ Hasil filtering tadi juga akan menunjukan bahwa protokol yang digunakan adalah *
 gambar
 
 ## Soal 4
+
+Berapa nilai checksum yang didapat dari header pada paket nomor 130?
+- Display filter `frame.number == 130` dan dilihat nilai checksumnya
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.4.1.png)
+
+Jawab: 0x18e5
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.4.2.png)
 
 ## Soal 5
 
@@ -69,6 +88,21 @@ gambar
 
 ## Soal 6
 
+REVISI
+
+- a1 e 5 u21 menunjukkan encoding yang digunakan yaitu a1z26 cipher
+- server SOURCE ADDRESS 7812 is invalid menunjukkan nomor packet
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.6.1.png)
+
+- IP address packet 7812 yaitu 104.18.14.101 didecode
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.6.2.png)
+
+Jawab: JDRNJA
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.6.3.png)
+
 ## Soal 7
 
 **Berapa jumlah packet yang menuju IP 186.87.193.88?**
@@ -96,6 +130,24 @@ gambar
 gambar
 
 ## Soal 10
+
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
+- Brute force dicari dari packet dengan protocol `TELNET`
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.10.1.png)
+
+Jawab: dhafin:kesayangannyak0k0
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.10.3.png)
+
+**REVISI**
+
+Cara supaya tidak brute force: 
+- Display filter frame contains "Login"
+- Follow TCP stream
+
+![image](https://github.com/fzhmghfrh/Jarkom-Modul-1-E22-2023/blob/main/img/s.10.2.png)
+
 
 ## Kendala
 
