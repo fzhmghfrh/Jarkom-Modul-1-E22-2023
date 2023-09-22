@@ -11,15 +11,15 @@
 
 Menampilkan Sequence Number (raw) & Acknowledgment Number (raw) - Request
 
-gambar
+![1](img/s.1.1.png)
 
 Menampilkan Sequence Number (raw) & Acknowledgment Number (raw) - Response
 
-gambar
+![1](img/s.1.2.png)
 
 Hasil Jawaban untuk 4 pertanyaan yang ada
 
-gambar
+![1](img/s.1.3.png)
 
 ## Soal 2
 
@@ -39,13 +39,13 @@ Jawab: gunicorn
 
 Ketika dilakukan filtering `ip.addr == 239.255.255.250 && udp.port == 3702` maka bisa langsung dihitung dan didapatkan hasilnya, yaitu **21**
 
-gambar
+![3](img/s.3.1.png)
 
 **B. Protokol layer transport apa yang digunakan?**
 
 Hasil filtering tadi juga akan menunjukan bahwa protokol yang digunakan adalah **UDP**
 
-gambar
+![3](img/s.3.2_8_9.png)
 
 ## Soal 4
 
@@ -64,27 +64,27 @@ Jawab: 0x18e5
 
 Filtering dilakukan terlebih dahulu untuk mencari alamat login, agar dapat mengetahui password yang ditentukan dan akan dilakukan decode
 
-gambar
+![5](img/s.5.1.png)
 
 **Berapa banyak packet yang berhasil di capture dari file pcap tersebut?**
 
 File menunjukan **60** file pcap
 
-gambar
+![5](img/s.5.2.png)
 
 **Port berapa pada server yang digunakan untuk service smtp?**
 
 Detail menunjukan Source port adalah **25**
 
-gambar
+![5](img/s.5.3.png)
 
 **Dari semua alamat ip yang tercapture, ip berapakah yang merupakan public ip?** 
 
 IPv4 - 6 menunjukan 6 alamat ip dan hanya satu yang tidak local, yaitu **74.53.140.153**
 
-gambar
+![5](img/s.5.4.png)
 
-gambar
+![5](img/s.5.5.png)
 
 ## Soal 6
 
@@ -109,9 +109,9 @@ Jawab: JDRNJA
 
 Filtering `ip.src == 184.87.193.88` menunjukan ada **6** packet
 
-gambar
+![7](img/s.7.1.png)
 
-gambar
+![7](img/s.7.2.png)
 
 ## Soal 8
 
@@ -119,7 +119,7 @@ gambar
 
 `tcp.dst.port == 80 || udp.dstport == 80`
 
-gambar
+![8](img/s.3.2_8_9.png)
 
 ## Soal 9
 
@@ -127,7 +127,7 @@ gambar
 
 `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
 
-gambar
+![9](img/s.3.2_8_9.png)
 
 ## Soal 10
 
