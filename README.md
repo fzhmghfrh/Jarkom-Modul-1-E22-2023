@@ -3,7 +3,7 @@
 | Nama                       | NRP        |
 | -------------------------- | ---------- |
 | Anggara Saputra            | 5025211241 |
-| Faizah Nurdianti Maghfirah | 5025211222 |
+| Faizah Nurdianti Maghfirah | 5025211134 |
 
 ## Soal 1
 
